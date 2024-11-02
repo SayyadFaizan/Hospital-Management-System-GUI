@@ -39,9 +39,9 @@ public class ReceptionistPanel extends JFrame {
         addButtonWithIcon(buttonPanel, "Update Patient", "src/update_patient_icon.png", Color.DARK_GRAY, 0, 1);
         addButtonWithIcon(buttonPanel, "Delete Patient", "src/delete_patient_icon.png", Color.DARK_GRAY, 0, 2);
         addButtonWithIcon(buttonPanel, "View Patients", "src/view_patients_icon.png", Color.DARK_GRAY, 0, 3);
-        addButtonWithIcon(buttonPanel, "View Doctors", "src/view_doctor_icon.png", Color.LIGHT_GRAY, 0, 4);
-        addButtonWithIcon(buttonPanel, "Book Appointment", "src/book_appointment_icon.png", Color.LIGHT_GRAY, 0, 5);
-        addButtonWithIcon(buttonPanel, "View Appointment", "src/view_appointment_icon.png", Color.LIGHT_GRAY, 0, 6);
+        addButtonWithIcon(buttonPanel, "View Doctors", "src/view_doctor_icon.png", Color.DARK_GRAY, 0, 4);
+        addButtonWithIcon(buttonPanel, "Book Appointment", "src/book_appointment_icon.png", Color.DARK_GRAY, 0, 5);
+        addButtonWithIcon(buttonPanel, "View Appointment", "src/view_appointment_icon.png", Color.DARK_GRAY, 0, 6);
 
         JButton logoutButton = new JButton("Logout");
         logoutButton.setPreferredSize(new Dimension(200, 30));
@@ -101,5 +101,5 @@ public class ReceptionistPanel extends JFrame {
         });
 
         panel.add(button, new GridBagConstraints(gridX, gridY, 1, 1, 1.0, 0, GridBagConstraints.CENTER, GridBagConstraints.NONE, new Insets(10, 0, 0, 0), 0, 0));
-    }
+}
 }

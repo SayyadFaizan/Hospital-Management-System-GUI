@@ -120,11 +120,4 @@ public class AddDoctorForm extends JFrame {
 
         return true;
     }
-
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            AddDoctorForm addDoctorForm = new AddDoctorForm();
-            addDoctorForm.setVisible(true);
-        });
-    }
 }

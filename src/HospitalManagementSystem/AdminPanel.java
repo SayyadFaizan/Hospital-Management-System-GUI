@@ -41,10 +41,10 @@ public class AdminPanel extends JFrame {
         addButtonWithIcon(buttonPanel, "View Patients", "src/view_patients_icon.png", Color.DARK_GRAY, 0, 3);
         addButtonWithIcon(buttonPanel, "Book Appointment", "src/book_appointment_icon.png", Color.DARK_GRAY, 0, 4);
         addButtonWithIcon(buttonPanel, "View Appointment", "src/view_appointment_icon.png", Color.DARK_GRAY, 0, 5);
-        addButtonWithIcon(buttonPanel, "Add Doctor", "src/add_doctor_icon.png", Color.LIGHT_GRAY, 0, 6);
-        addButtonWithIcon(buttonPanel, "Update Doctor", "src/update_doctor_icon.png", Color.LIGHT_GRAY, 0, 7);
-        addButtonWithIcon(buttonPanel, "Delete Doctor", "src/delete_doctor_icon.png", Color.LIGHT_GRAY, 0, 8);
-        addButtonWithIcon(buttonPanel, "View Doctor", "src/view_doctor_icon.png", Color.LIGHT_GRAY, 0, 9);
+        addButtonWithIcon(buttonPanel, "Add Doctor", "src/add_doctor_icon.png", Color.DARK_GRAY, 0, 6);
+        addButtonWithIcon(buttonPanel, "Update Doctor", "src/update_doctor_icon.png", Color.DARK_GRAY, 0, 7);
+        addButtonWithIcon(buttonPanel, "Delete Doctor", "src/delete_doctor_icon.png", Color.DARK_GRAY, 0, 8);
+        addButtonWithIcon(buttonPanel, "View Doctor", "src/view_doctor_icon.png", Color.DARK_GRAY, 0, 9);
 
         JButton logoutButton = new JButton("Logout");
         logoutButton.setPreferredSize(new Dimension(200, 30));
